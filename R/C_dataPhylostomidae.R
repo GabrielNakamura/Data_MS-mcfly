@@ -5,12 +5,12 @@ library(mcfly)
 library(robts)
 library(here)
 
-comm.full<-as.matrix(read.table(here::here("Data", "comm_phyllostomidae_final.txt",h = T)))
+comm.full<-as.matrix(read.table(here::here("Data", "comm_phyllostomidae_final.txt"), h = T))
 dim(comm.full)
 single.spp<-which(rowSums(comm.full)<1)
 comm<-comm.full[-single.spp,]
 dim(comm)
-data<-read.table(here::here("Data", "A_SAM_Grid_morrone.txt",h=T))
+data<-read.table(here::here("Data", "A_SAM_Grid_morrone.txt"), h=T)
 env<-data[-single.spp,c(10:15)]
 esp<-data[-single.spp,c(3:4)]
 dim(esp)

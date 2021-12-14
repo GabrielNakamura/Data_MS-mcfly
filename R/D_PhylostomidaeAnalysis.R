@@ -129,7 +129,7 @@ cor(mean.sim.div,div)
 plot(mean.sim.div,div)
 
 dat<-cbind(div,mean.sim.div,esp,envir)
-write.table(dat,"dados.txt",sep=" ")
+write.table(dat, here::here("Output", "dados.txt"),sep=" ")
 
 test.phyllostomidae$Sample_Attributes
 
@@ -142,18 +142,18 @@ log.hl.prior<-log(hl.prior)
 
 dat.alpha.post<-cbind(alpha.post,hl.post,log.hl.post)
 dat.alpha.prior<-cbind(alpha.prior,hl.prior,log.hl.prior)
-write.table(dat.alpha.post,"dados_alpha_post.txt",sep=" ")
-write.table(dat.alpha.prior,"dados_alpha_prior.txt",sep=" ")
+write.table(dat.alpha.post,here::here("Output", "dados_alpha_post.txt"), sep = " ")
+write.table(dat.alpha.prior,here::here("Output", "dados_alpha_prior.txt"), sep = " ")
 
 data.dens.prior<-cbind(alpha.prior,dens.alpha.prior,prior.w,dens.w.prior)
 write.table(data.dens.prior,"dados_dens_alpha_prior.txt",sep=" ")
 data.dens.post<-cbind(alpha.post,dens.alpha.post,post.w,dens.w.post)
-write.table(data.dens.post,"dados_dens_alpha_post.txt",sep=" ")
+write.table(data.dens.post, here::here("Output", "dados_dens_alpha_post.txt"),sep=" ")
 
 w.prior.raw<-test.phyllostomidae$W_Prior_Distribution
-write.table(w.prior.raw,"dados_w_prior.txt",sep=" ")
+write.table(w.prior.raw, here::here("Output", "dados_w_prior.txt"), sep=" ")
 w.post.raw<-test.phyllostomidae$W_Posterior_Distribution
-write.table(w.post.raw,"dados_w_post.txt",sep=" ")
+write.table(w.post.raw, here::here("Output", "dados_w_post.txt"), sep= " ")
 
 
 # definir parâmetros de dispersão
@@ -177,7 +177,7 @@ dlk.sub<-dlk[sample(nrow(dlk),1000,replace=F),]
 
 
 plot(dlk.sub[,3],dlk.sub[,2])
-write.table(dlk.sub,"w_curve.txt",sep=" ")
+write.table(dlk.sub,here::here("Output", "w_curve.txt"), sep = " ")
 
 
 

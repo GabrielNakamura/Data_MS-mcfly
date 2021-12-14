@@ -11,6 +11,7 @@ library(piecewiseSEM)
 #Prior_mode = Either 'uniform' or 'half-life'.
 #log(Median_Posterior_W) - Log-transformed median of the posterior distribution of w slope.
 
-res_full<-read.table("test_final.txt",h=T)
+res_full<-read.table(here::here("Data", "test_final.txt"),h=T)
 unif<-as.data.frame(res_full[1001:2000,])
 hl<-as.data.frame(res_full[1:1000,])
+
