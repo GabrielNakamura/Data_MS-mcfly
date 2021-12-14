@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Labels</key>
+	<string>OU' \alpha
+Density
+OU's \alpha  prior distribution
+OU's \alpha  posterior distribution
+Histogram of 
+HPD_{1} 90%
+HPD_{2} 90%
+0.05
+{\bf A}
+
+OU' \alpha
+Density
+Histogram of alpha.prior.raw
+OU's \alpha  prior distribution
+OU's \alpha  posterior distribution
+Histogram of alpha.post.raw
+HPD 90%
+0.63
+{\bf c}
+
+{\it w }slope
+Density
+{\it w} slope prior distribution
+{\it w} slope posterior distribution
+HPD_{1} 90%
+HPD_{2} 90%
+HPD_{3} 90%
+58.52
+{\bf B}
+
+Distance (km)
+Dispersal probability
+OU's \alpha  prior distribution
+{\it w} = 58.52
+
+{\it w }slope
+Density
+{\it w} slope prior distribution
+{\it w} slope posterior distribution
+HPD_{1} 90%
+41.87
+{\bf d}
+
+Distance (km)
+Dispersal probability
+OU's \alpha  prior distribution
+{\it w} = 41.87
+</string>
+	<key>Text</key>
+	<string></string>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Labels</key>
+	<string>Longitude
+Latitude
+Lat
+{\bf A}
+
+Longitude
+Latitude
+Lat
+{\bf B}
+
+Longitude
+Latitude
+coords.x2
+{\bf d}
+Elevation
+Temperature
+seasonality
+seasonality
+Precipitation
+
+Longitude
+Latitude
+coords.x2
+{\bf e}
+
+Temperature seasonality
+Observed entropy
+div
+
+PC 2
+Observed entropy
+div
+
+Estimated entropy
+Observed entropy
+div
+R^{2} = 0.90
+div
+
+Estimated entropy
+Observed entropy
+div
+R^{2} = 0.52
+div
+
+Longitude
+Latitude
+Lat
+{\bf C}
+
+Longitude
+Latitude
+coords.x2
+{\bf f}
+</string>
+	<key>Text</key>
+	<string></string>
+</dict>
+</plist>
