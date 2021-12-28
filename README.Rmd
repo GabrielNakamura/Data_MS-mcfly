@@ -80,7 +80,7 @@ This folder contains data from all analysis (sensibility and empirical). Those f
     
 ### `figs` folder
 
-This folder contains all Figures presented in the manuscript. All the Figures was made using [DataGraph](https://apps.apple.com/us/app/datagraph/id407412840?mt=12) software
+This folder contains all Figures presented in the manuscript. All the Figures were made using [DataGraph](https://apps.apple.com/us/app/datagraph/id407412840?mt=12) software
 
 ## Additional software
 
@@ -92,7 +92,7 @@ devtools::install_github(repo = "GabrielNakamura/mcfly", ref = "master")
 
 **Important**: All analyses described in the preprint was done using previous versions of `mcfly`
 
-Additionaly to R, [DataGraph](https://apps.apple.com/us/app/datagraph/id407412840?mt=12) software was used to produce all the Figures present in the manuscript.
+Additionaly to R, [DataGraph](https://apps.apple.com/us/app/datagraph/id407412840?mt=12) software was used to produce all the Figures present in the manuscript. Files used in additional software can be found in `DataGraph` folder.
 
 ## Getting help
 
