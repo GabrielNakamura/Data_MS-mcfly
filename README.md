@@ -1,4 +1,6 @@
 
+<img src="figs/Fig1.png" alt="mcfly logo" width="200px" align="right"/>
+
 # There and Back to the Present: An Evolutionary Tale on Biological Diversity
 
 [![DOI:10.1101/2021.12.11.472171](http://img.shields.io/badge/DOI-10.1101/2021.12.11.472171-B31B1B.svg)](https://www.biorxiv.org/content/10.1101/2021.12.11.472171v1)
@@ -11,15 +13,15 @@ José Alexandre F. Diniz-Filho
 
 ## Repository overview
 
-This repository contains all data and R scripts that allows to fully
+This repository contains data and R scripts that allows to fully
 reproduce the analyses presented in the manuscript entitled “There and
 Back to the Present: An Evolutionary Tale on Biological Diversity”, in
-which we we introduce an individual-based simulation approach coupled to
-Approximate Bayesian Computation (ABC) that allows to parameterize the
-adaptation rate of species niche positions along the evolution of a
+which we introduce an individual-based simulation approach coupled with
+Approximate Bayesian Computation (ABC) that allows to parameterize
+adaptation rates of species niche positions along the evolution of a
 monophyletic lineage, and the intensity of dispersal limitation between
 local assemblages potentially connected by dispersal (metacommunity).
-The analytical tool was implemented in an R package called
+The analytic tool was implemented in an R package called
 [mcfly](https://github.com/GabrielNakamura/mcfly). A preprint version of
 this work can be found
 [here](https://www.biorxiv.org/content/10.1101/2021.12.11.472171v1).
@@ -46,22 +48,22 @@ described in the next section. Names of R scripts present the following
 structure: **Number\_UpperCaseLetter\_ScriptName.R**
 
   - The number indicates the sequence in which the script must be
-    oppened, therefore, the spcript that innitiate with 01 are the first
-    scripts that has to be oppened;
-  - The upper case letter indicates what the script do. C indicate
+    opened, therefore, the script that innitiate with 01 are the first
+    scripts that has to be opened;
+  - The upper case letter indicates what the script does. C indicate
     scripts with codes to read libraries and data; scripts with D
-    contain code for run the analysis;
+    contain code for running the analysis;
   - The last part is the name of the script, that provide a glimpse of
     what the code contained in script aim to do.
 
-For example: spcript 01\_C\_dataPhylostomidae.R is the first script to
-be oppened to read data related to empirical communities of bats
-(Phylostomidae).
+For example: script 01\_C\_dataPhylostomidae.R must be the first script
+to be opened since it reads data and libraries related to empirical
+communities (Phylostomidae).
 
 ### `R` folder
 
 The `R` folder contains all the scripts needed to read data and
-libraries and to do the analysis contained in the manuscript.
+libraries and running the analysis contained in the manuscript.
 
 ### `Data` folder
 
@@ -77,10 +79,13 @@ manuscript.
 
 ### `figs` folder
 
-This folder contains all Figures presented in the manuscript. All the
-Figures was made using
+This folder contains all Figures presented in the manuscript. Figure
+names corresponds are the same as the latest [preprint version of this
+manuscript](https://www.biorxiv.org/content/10.1101/2021.12.11.472171v2).
+All the Figures were made using
 [DataGraph](https://apps.apple.com/us/app/datagraph/id407412840?mt=12)
-software
+software, however all data needed to construct the same figures can be
+find in `Data` and `Outpub` folders.
 
 ## Additional software
 
@@ -97,6 +102,7 @@ previous versions of `mcfly`
 Additionaly to R,
 [DataGraph](https://apps.apple.com/us/app/datagraph/id407412840?mt=12)
 software was used to produce all the Figures present in the manuscript.
+Files used in additional software can be found in `DataGraph` folder.
 
 ## Getting help
 

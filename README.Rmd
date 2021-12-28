@@ -9,6 +9,8 @@ knitr::opts_chunk$set(
 )
 ```
 
+<img src="figs/Fig1.png" alt="mcfly logo" width="200px" align="right"/>
+
 # There and Back to the Present: An Evolutionary Tale on Biological Diversity
 
 [![DOI:10.1101/2021.12.11.472171](http://img.shields.io/badge/DOI-10.1101/2021.12.11.472171-B31B1B.svg)](https://www.biorxiv.org/content/10.1101/2021.12.11.472171v1)
@@ -80,7 +82,8 @@ This folder contains data from all analysis (sensibility and empirical). Those f
     
 ### `figs` folder
 
-This folder contains all Figures presented in the manuscript. All the Figures were made using [DataGraph](https://apps.apple.com/us/app/datagraph/id407412840?mt=12) software
+This folder contains all Figures presented in the manuscript. Figure names corresponds are the same as the latest [preprint version of this manuscript](https://www.biorxiv.org/content/10.1101/2021.12.11.472171v2). 
+All the Figures were made using [DataGraph](https://apps.apple.com/us/app/datagraph/id407412840?mt=12) software, however all data needed to construct the same figures can be find in `Data` and `Outpub` folders.
 
 ## Additional software
 
