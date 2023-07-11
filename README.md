@@ -5,6 +5,8 @@
 
 [![DOI:10.1101/2021.12.11.472171](http://img.shields.io/badge/DOI-10.1101/2021.12.11.472171-B31B1B.svg)](https://www.biorxiv.org/content/10.1101/2021.12.11.472171v1)
 
+[![DOI](https://zenodo.org/badge/438417407.svg)](https://zenodo.org/badge/latestdoi/438417407)
+
 ## Authors
 
 **Leandro Duarte**, Gabriel Nakamura, Vanderlei Debastiani, Renan
