@@ -54,20 +54,25 @@ described in the next section.
 The `R` folder contains all the scripts needed to read data and
 libraries and running the analysis contained in the manuscript.
 
-    - `read_data_libraries.R` reads and proccess data before running the analysis for the real communities (Phyllostomidae communities)
+-   `read_data_libraries.R` reads and proccess data before running the
+    analysis for the real communities (Phyllostomidae communities)
 
-    - `RunSimTest_mcfly.R` contains an R function used to perform the simulations used in this study
+-   `RunSimTest_mcfly.R` contains an R function used to perform the
+    simulations used in this study
 
-    - `SimulatedData_mcfly.R` calls `RunSimTest_mcfly.R` to run the simulation using five degrees of dispersal parameter (w) 
+-   `SimulatedData_mcfly.R` calls `RunSimTest_mcfly.R` to run the
+    simulation using five degrees of dispersal parameter (w)
 
 ### `data` folder
 
 The `data` folder contains all data necessary to run the analysis with
 empirical communities (using Phylostomidae communities).
 
-    - `comm_phyllostomidae_final.txt` is a community matrix with species in the columns and assemblages in the rows
+-   `comm_phyllostomidae_final.txt` is a community matrix with species
+    in the columns and assemblages in the rows
 
-    - `tree_phyllostomidae_final.tre` is a newick file containing the phylogenetic tree
+-   `tree_phyllostomidae_final.tre` is a newick file containing the
+    phylogenetic tree
 
 ### `figs` folder
 
