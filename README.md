@@ -1,5 +1,5 @@
 
-<img src="figs/Fig1.png" alt="mcfly logo" width="200px" align="right"/>
+<img src="fig/Fig1.png" alt="mcfly logo" width="200px" align="right"/>
 
 # There and back to the present: a model-based framework to estimate phylogenetically constrained alpha diversity gradients
 
@@ -28,6 +28,8 @@ analytic tool was implemented in an R package called
 [mcfly](https://github.com/GabrielNakamura/mcfly). A preprint version of
 this work can be found
 [here](https://www.biorxiv.org/content/10.1101/2021.12.11.472171v1).
+
+    Obs -The preprint does not correspond to the most updated version of the study.
 
 If you want to use this repository you can clone or download to your
 computer machine using the following code:
