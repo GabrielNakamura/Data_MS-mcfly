@@ -56,25 +56,42 @@ described in the next section.
 The `R` folder contains all the scripts needed to read data and
 libraries and running the analysis contained in the manuscript.
 
--   `read_data_libraries.R` reads and proccess data before running the
-    analysis for the real communities (Phyllostomidae communities)
+- `read_data_libraries.R` reads and proccess data before running the
+  analysis for the real communities (Phyllostomidae communities)
 
--   `RunSimTest_mcfly.R` contains an R function used to perform the
-    simulations used in this study
+- `Phyllostomidae.R` perform mcfly analysis using data from
+  Phylostomidae communities accordingly to the parameters passed to
+  `mcfly`function
 
--   `SimulatedData_mcfly.R` calls `RunSimTest_mcfly.R` to run the
-    simulation using five degrees of dispersal parameter (w)
+- `RunSimTest_mcfly.R` contains an R function used to perform the
+  simulations used in this study
+
+- `SimulatedData_mcfly.R` calls `RunSimTest_mcfly.R` function to run the
+  simulation using five degrees of dispersal parameter (w)
 
 ### `data` folder
 
 The `data` folder contains all data necessary to run the analysis with
 empirical communities (using Phylostomidae communities).
 
--   `comm_phyllostomidae_final.txt` is a community matrix with species
-    in the columns and assemblages in the rows
+- `comm_phyllostomidae_final.txt` is a community matrix with species in
+  the columns and assemblages in the rows
 
--   `tree_phyllostomidae_final.tre` is a newick file containing the
-    phylogenetic tree
+- `tree_phyllostomidae_final.tre` is a newick file containing the
+  phylogenetic tree
+
+- `grid_data.txt` is a txt file containing coordinates (coords.x1 and
+  coords.x2) and environmental variables used in the analysis of
+  Phylostomidae dataset
+
+  - Elevation - elevation in meters
+  - Elev_range - elevation range in meters
+  - Temp - mean annual temperature in Celcius
+  - Temp_Seas - temperature seasonality as coefficient of variation in
+    temperature for a year
+  - Prec - mean anual preciptation in mm
+  - Prec_Seas - precipitation seasonality as coefficient of variation in
+    precipitation for a year
 
 ### `figs` folder
 
